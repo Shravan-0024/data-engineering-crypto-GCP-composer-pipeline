@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-22T14:32:32.826593","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-22T14:32:32.827429","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bitcoin-composer-etl.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-22T14:32:33.742949Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:32:33.744146Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:32:33.744569Z","level":"info","event":"Current task name:create_bucket","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:32:33.744719Z","level":"info","event":"Dag name:bitcoin_composer_etl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:32:33.763293","level":"info","event":"Connection Retrieved 'google_cloud_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-22T14:32:33.823631","level":"info","event":"Creating Bucket: crypto-exchange-pipeline-sannu; Location: US; Storage Class: MULTI_REGIONAL","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.gcs.GCSHook"}
+{"timestamp":"2025-07-22T14:32:35.177515","level":"warning","event":"Bucket crypto-exchange-pipeline-sannu already exists","logger":"airflow.task.operators.airflow.providers.google.cloud.operators.gcs.GCSCreateBucketOperator"}
+{"timestamp":"2025-07-22T14:32:35.274858Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:32:35.276071Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:32:35.281366Z","level":"info","event":"Task operator:<Task(GCSCreateBucketOperator): create_bucket>","chan":"stdout","logger":"task"}

@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-22T14:22:43.469917","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-22T14:22:43.474251","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bitcoin-composer-etl.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-22T14:22:46.181377Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:22:46.182529Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:22:46.182696Z","level":"info","event":"Current task name:upload_raw_data_to_gcs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:22:46.182813Z","level":"info","event":"Dag name:bitcoin_composer_etl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:22:46.205468","level":"info","event":"Connection Retrieved 'google_cloud_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-22T14:22:47.796394","level":"info","event":"File crypto_data.json uploaded to raw_data/crypto_raw_data_20250722T142226.json in crypto-exchange-pipeline-sannu bucket","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.gcs.GCSHook"}
+{"timestamp":"2025-07-22T14:22:47.866327Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:22:47.866574Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T14:22:47.867402Z","level":"info","event":"Task operator:<Task(LocalFilesystemToGCSOperator): upload_raw_data_to_gcs>","chan":"stdout","logger":"task"}

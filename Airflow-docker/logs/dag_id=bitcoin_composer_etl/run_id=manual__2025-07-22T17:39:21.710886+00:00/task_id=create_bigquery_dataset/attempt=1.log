@@ -1,0 +1,14 @@
+{"timestamp":"2025-07-22T17:40:33.676614","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-22T17:40:33.683669","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/bitcoin-composer-etl.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-22T17:40:43.163881Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T17:40:43.165930Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T17:40:43.166950Z","level":"info","event":"Current task name:create_bigquery_dataset","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T17:40:43.167420Z","level":"info","event":"Dag name:bitcoin_composer_etl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T17:40:43.217485","level":"info","event":"Connection Retrieved 'google_cloud_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-22T17:40:43.314058","level":"info","event":"datasetId was not specified in `dataset_reference`. Will use default value crypto_db.","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.bigquery.BigQueryHook"}
+{"timestamp":"2025-07-22T17:40:43.314175","level":"info","event":"projectId was not specified in `dataset_reference`. Will use default value bitcoin-airlfow-orchestration.","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.bigquery.BigQueryHook"}
+{"timestamp":"2025-07-22T17:40:43.315448","level":"info","event":"Creating dataset: crypto_db in project: bitcoin-airlfow-orchestration ","logger":"airflow.task.hooks.airflow.providers.google.cloud.hooks.bigquery.BigQueryHook"}
+{"timestamp":"2025-07-22T17:40:44.991827","level":"info","event":"Dataset crypto_db already exists.","logger":"airflow.task.operators.airflow.providers.google.cloud.operators.bigquery.BigQueryCreateEmptyDatasetOperator"}
+{"timestamp":"2025-07-22T17:40:45.220094Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T17:40:45.221525Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T17:40:45.222763Z","level":"info","event":"Task operator:<Task(BigQueryCreateEmptyDatasetOperator): create_bigquery_dataset>","chan":"stdout","logger":"task"}

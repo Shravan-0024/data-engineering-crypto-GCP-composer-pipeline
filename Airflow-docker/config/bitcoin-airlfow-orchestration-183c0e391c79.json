@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bitcoin-airlfow-orchestration",
+  "private_key_id": "183c0e391c79a6d2cc42c27676ebeb21dbca7bee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCkYk/3icHtU5K5\nTvdwrJESZTvFgcj4SDErXhnk0K4/Vi9dUjFoLFkuCh+gXFVV6Er/aSYN33jwrv/x\nf+z/tSD5EYp2sqUNZPPdHsOf83fxqsZvPkG98RO+vsa7OKWPcD+ol06I4lJ54VAK\nboWI8BJXwvsvM71ZyDS0L5M4yQVjiaND+Ajr27jejXKor+m8KiI8htc9UBumIcQj\nxVqHvvCtWkEFcEpX2k9SpI2A+G/drce7OLkAnYlEK8rRZEklA3Fy7MvZeHhqZ2M4\nmAd9dXrAkWbWvwsfo/Pzg1UxpfOB0/qZ6q6DBfB8otxccZlPaThipk1M16D4hL1B\nJ8KMQ5DHAgMBAAECggEAB07NkkogAm54M9/EVVB+pIw2k4m5BvyinvRwf0Edtfgd\nY+8u/hwWnNrbXBQuwQJyLxecFvrL1Btbin9u6FFDlX8Hok4/0zAdPUPMW5SFzQsU\nBkcEwi5w+8ZcbF9Q0OcjFVogpio1k3CGT+ho7FUL47Xp18fbj528ZhRFXb1mDW4z\nQFj6ksW9J/L48cuMmOLayrgUrps9Wbu6r7S4cF0CtFZYb0gtrCdahsrkVwTLcjsi\nUbCkjAwp54lDWNZMFOGHcvoHoW9Nwd5PSY6Au7bZoyFC1D3FjBRPH4sOZneadxvy\nCHpKRdF2EgYcv6h65zW/vCx6MdBJBCHR9LQpXktESQKBgQDVfpQSbNNXNrurFQ3n\n9IQxBxTo40VE2M3lYug2II2rvt/V9EiL/tkK+0C1zZyfa3uqgrle9JjAe5tlw+gL\nskdrtyn6hu8ZrOfIZAnYw6mOplw9wlzhDg7wwewDFgNGg7fBF566zuaQsZUj2IxH\nWyNDys4NpQd9tXDvTBb7aIGkqQKBgQDFHKp7ouYeo/xng8X/dQOBN00q4CJNpPIg\nForMWmmKwU9tbaAJiFGmNlC4S8u3Od22shCH5Y71iLbNhHz+edeKJfMtzivGaG/+\nqKPysZLdpmh6cbBtpr+nbgcXoWmReLx7Mji7Jtsnx4Xaza8OlmsKQlTmObe5yQAz\n1jbGIhN/7wKBgQDHGIUD7cLlWWCIOlk+kFPa2OzSBmgpvTm+Co/dMlyL5rQddfNV\nwvMrf4YoRTgjn3uzVreCav4sutj/fUPf7IEYXbbjMIS33/xDb6+TG1z7b/8jhSdS\npeae9Wmgsx2Y2+s4Qku/kIWKOGGKDT88qCxp4y5noRgsTlGkh8QC7sHACQKBgG5a\nfSvY6ILRBleh07EQftTR9DcD4tCbfx7t3+lG2P3g+inmjQmpMyUeFZUIglXjZLiK\n+mxK3f2i+80V1rDV4BEs6/eCDMn44HKvUZJnTjUfnDCpA8Bv8a64D+pv6N2Tvdov\nJMnKmDmuH8d/DfnZxrWoq0V1nOG7oYxj6qiEnWwrAoGBAJBRJdb1l+tLekONa4df\nx7hZEt+TG9ZhfBjdXoBx7PPJZn7ipe2+3VP06GyyhyTK5+p1npQMgPNc48rQ+nYi\nz5uyktdBx6MbdZro294PBj30ziNVR0H9Z4yaBXBkDg3gK43AR79kHoJ549Mq0f8l\n5WuUpKg4zTtgtW8Ov2hCjF6Z\n-----END PRIVATE KEY-----\n",
+  "client_email": "composer-airflow@bitcoin-airlfow-orchestration.iam.gserviceaccount.com",
+  "client_id": "114538811978094668253",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/composer-airflow%40bitcoin-airlfow-orchestration.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
